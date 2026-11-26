@@ -1,0 +1,770 @@
+{
+ "corpus": {
+  "files": 22457,
+  "exact_duplicates": 1257,
+  "bytes": 309552018,
+  "docs": 21191,
+  "shingles": 44238836,
+  "load_s": 115.42279630000121,
+  "exact_join_s": 93.29138310000417,
+  "exact_join_verified": 162991,
+  "exact_pairs": 42908,
+  "exact_removed": 1242,
+  "settings": [
+   {
+    "fn_weight": 0.5,
+    "b": 9,
+    "r": 13
+   },
+   {
+    "fn_weight": 0.9,
+    "b": 14,
+    "r": 9
+   }
+  ],
+  "top_clusters": [
+   {
+    "size": 267,
+    "packages": {
+     "plotly": 267
+    },
+    "example": "plotly/graph_objs/bar/_insidetextfont.py"
+   },
+   {
+    "size": 50,
+    "packages": {
+     "plotly": 50
+    },
+    "example": "plotly/graph_objs/bar/marker/colorbar/_tickformatstop.py"
+   },
+   {
+    "size": 49,
+    "packages": {
+     "plotly": 49
+    },
+    "example": "plotly/graph_objs/bar/_legendgrouptitle.py"
+   },
+   {
+    "size": 44,
+    "packages": {
+     "plotly": 44
+    },
+    "example": "plotly/graph_objs/bar/_hoverlabel.py"
+   },
+   {
+    "size": 37,
+    "packages": {
+     "plotly": 37
+    },
+    "example": "plotly/graph_objs/bar/marker/_colorbar.py"
+   },
+   {
+    "size": 37,
+    "packages": {
+     "plotly": 37
+    },
+    "example": "plotly/graph_objs/bar/marker/colorbar/_title.py"
+   },
+   {
+    "size": 32,
+    "packages": {
+     "google": 32
+    },
+    "example": "google/genai/_gaos/resources/interactions/annotation/__init__.py"
+   },
+   {
+    "size": 30,
+    "packages": {
+     "plotly": 30
+    },
+    "example": "plotly/graph_objs/bar/selected/_marker.py"
+   }
+  ]
+ },
+ "hashers": [
+  {
+   "hasher": "MinHash",
+   "K": 128,
+   "fn_weight": 0.5,
+   "b": 9,
+   "r": 13,
+   "signature_s": 46.22207950000302,
+   "candidates": 34867,
+   "recall": 0.8008995991423511,
+   "precision": 0.9856024320991195,
+   "est_flagged": 34180,
+   "est_recall": 0.7947235946676611,
+   "est_precision": 0.9976594499707431,
+   "lsh_removed": 1294,
+   "verified_removed": 1158,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.005172923440733077,
+     "measured_cluster_avg": 0.006256189077707875,
+     "s_curve": 0.0049186853583071104
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.011804794937325058,
+     "measured_cluster_avg": 0.05958020088439853,
+     "s_curve": 0.03429591178239743
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.07741935483870968,
+     "measured_cluster_avg": 0.08656015567552891,
+     "s_curve": 0.12751131560861478
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.21087680355160932,
+     "measured_cluster_avg": 0.2928244365331658,
+     "s_curve": 0.27302371517295865
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.5473040026463778,
+     "measured_cluster_avg": 0.5053128490551626,
+     "s_curve": 0.6260585349510769
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.5374426456583845,
+     "measured_cluster_avg": 0.7929750486725955,
+     "s_curve": 0.7953906220695192
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 0.9704073789392775,
+     "measured_cluster_avg": 0.9493339831604681,
+     "s_curve": 0.9729019838535584
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 0.999896896587277,
+     "measured_cluster_avg": 0.9999988818820162,
+     "s_curve": 0.9996946582513677
+    }
+   ]
+  },
+  {
+   "hasher": "MinHash",
+   "K": 128,
+   "fn_weight": 0.9,
+   "b": 14,
+   "r": 9,
+   "signature_s": 46.22207950000302,
+   "candidates": 46738,
+   "recall": 0.9821711568938193,
+   "precision": 0.9016859942659078,
+   "est_flagged": 41486,
+   "est_recall": 0.9623846368975483,
+   "est_precision": 0.995371932700188,
+   "lsh_removed": 1715,
+   "verified_removed": 1232,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.06347916050842448,
+     "measured_cluster_avg": 0.06664899796644813,
+     "s_curve": 0.07093509137704246
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.20250699768772057,
+     "measured_cluster_avg": 0.2590695799532823,
+     "s_curve": 0.24880148766486027
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.4629032258064516,
+     "measured_cluster_avg": 0.5367809656362141,
+     "s_curve": 0.5396325778971339
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.7458379578246392,
+     "measured_cluster_avg": 0.8373126694320417,
+     "s_curve": 0.7557145804696255
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.8888521336420774,
+     "measured_cluster_avg": 0.9114022396558713,
+     "s_curve": 0.9587786944245289
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.9921218942082937,
+     "measured_cluster_avg": 0.9937396512004538,
+     "s_curve": 0.9886576407417158
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 0.9998718934153216,
+     "measured_cluster_avg": 0.9999787962639016,
+     "s_curve": 0.9997822094482397
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9999998911640903
+    }
+   ]
+  },
+  {
+   "hasher": "OPH, optimal densification",
+   "K": 128,
+   "fn_weight": 0.5,
+   "b": 9,
+   "r": 13,
+   "signature_s": 8.32399569998961,
+   "candidates": 34650,
+   "recall": 0.7878950312296076,
+   "precision": 0.9756709956709957,
+   "est_flagged": 33793,
+   "est_recall": 0.7864034678847768,
+   "est_precision": 0.9985204036338887,
+   "lsh_removed": 1278,
+   "verified_removed": 1153,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.0004433934377771209,
+     "measured_cluster_avg": 0.0026748613408558676,
+     "s_curve": 0.0049186853583071104
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.05220883534136546,
+     "measured_cluster_avg": 0.03631523733765041,
+     "s_curve": 0.03429591178239743
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.11236559139784946,
+     "measured_cluster_avg": 0.13871624636230498,
+     "s_curve": 0.12751131560861478
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.21975582685904552,
+     "measured_cluster_avg": 0.248627371975165,
+     "s_curve": 0.27302371517295865
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.3575917962289117,
+     "measured_cluster_avg": 0.43877433682082584,
+     "s_curve": 0.6260585349510769
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.6431477794130378,
+     "measured_cluster_avg": 0.7152965828509997,
+     "s_curve": 0.7953906220695192
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 0.9298616448885473,
+     "measured_cluster_avg": 0.9857050295554292,
+     "s_curve": 0.9729019838535584
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9996946582513677
+    }
+   ]
+  },
+  {
+   "hasher": "OPH, optimal densification",
+   "K": 128,
+   "fn_weight": 0.9,
+   "b": 14,
+   "r": 9,
+   "signature_s": 8.32399569998961,
+   "candidates": 44572,
+   "recall": 0.9632236412790156,
+   "precision": 0.9272637530288074,
+   "est_flagged": 40850,
+   "est_recall": 0.9495665144029085,
+   "est_precision": 0.9974051407588739,
+   "lsh_removed": 1667,
+   "verified_removed": 1231,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.020987289388117055,
+     "measured_cluster_avg": 0.06737696892750196,
+     "s_curve": 0.07093509137704246
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.1857125471583303,
+     "measured_cluster_avg": 0.22310745712355923,
+     "s_curve": 0.24880148766486027
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.39838709677419354,
+     "measured_cluster_avg": 0.488662710414873,
+     "s_curve": 0.5396325778971339
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.6781354051054383,
+     "measured_cluster_avg": 0.7321616836042298,
+     "s_curve": 0.7557145804696255
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.7944095269599736,
+     "measured_cluster_avg": 0.8985567169612864,
+     "s_curve": 0.9587786944245289
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.9709981819755865,
+     "measured_cluster_avg": 0.9984547773767894,
+     "s_curve": 0.9886576407417158
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9997822094482397
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9999998911640903
+    }
+   ]
+  },
+  {
+   "hasher": "OPH, rotation densification",
+   "K": 128,
+   "fn_weight": 0.5,
+   "b": 9,
+   "r": 13,
+   "signature_s": 2.7044840999878943,
+   "candidates": 36753,
+   "recall": 0.7905052670830615,
+   "precision": 0.922890648382445,
+   "est_flagged": 33935,
+   "est_recall": 0.7884310618066561,
+   "est_precision": 0.996905849418005,
+   "lsh_removed": 1680,
+   "verified_removed": 1180,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.008572273130357671,
+     "measured_cluster_avg": 0.0660042821108215,
+     "s_curve": 0.0049186853583071104
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.09078739199221127,
+     "measured_cluster_avg": 0.22405694256847208,
+     "s_curve": 0.03429591178239743
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.19623655913978494,
+     "measured_cluster_avg": 0.2992423945391378,
+     "s_curve": 0.12751131560861478
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.3174250832408435,
+     "measured_cluster_avg": 0.39532044078093664,
+     "s_curve": 0.27302371517295865
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.36966589480648365,
+     "measured_cluster_avg": 0.6030981246914118,
+     "s_curve": 0.6260585349510769
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.6460046749199203,
+     "measured_cluster_avg": 0.8317310972117559,
+     "s_curve": 0.7953906220695192
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 0.9302459646425826,
+     "measured_cluster_avg": 0.9925166237583278,
+     "s_curve": 0.9729019838535584
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9996946582513677
+    }
+   ]
+  },
+  {
+   "hasher": "OPH, rotation densification",
+   "K": 128,
+   "fn_weight": 0.9,
+   "b": 14,
+   "r": 9,
+   "signature_s": 2.7044840999878943,
+   "candidates": 49065,
+   "recall": 0.963852894565116,
+   "precision": 0.842902272495669,
+   "est_flagged": 40907,
+   "est_recall": 0.9497063484664864,
+   "est_precision": 0.9961620260591096,
+   "lsh_removed": 2288,
+   "verified_removed": 1235,
+   "by_jaccard": [
+    {
+     "J": [
+      0.5,
+      0.6
+     ],
+     "pairs": 13532,
+     "clusters": 212,
+     "largest_share": 0.26138043156961277,
+     "measured": 0.05690215784806385,
+     "measured_cluster_avg": 0.24096516221223055,
+     "s_curve": 0.07093509137704246
+    },
+    {
+     "J": [
+      0.6,
+      0.7
+     ],
+     "pairs": 8217,
+     "clusters": 169,
+     "largest_share": 0.5207496653279786,
+     "measured": 0.2543507362784471,
+     "measured_cluster_avg": 0.4230883378511806,
+     "s_curve": 0.24880148766486027
+    },
+    {
+     "J": [
+      0.7,
+      0.75
+     ],
+     "pairs": 1860,
+     "clusters": 75,
+     "largest_share": 0.2994623655913978,
+     "measured": 0.5801075268817204,
+     "measured_cluster_avg": 0.6593899223977253,
+     "s_curve": 0.5396325778971339
+    },
+    {
+     "J": [
+      0.75,
+      0.8
+     ],
+     "pairs": 901,
+     "clusters": 64,
+     "largest_share": 0.38623751387347394,
+     "measured": 0.7780244173140954,
+     "measured_cluster_avg": 0.8486647464783628,
+     "s_curve": 0.7557145804696255
+    },
+    {
+     "J": [
+      0.8,
+      0.85
+     ],
+     "pairs": 6046,
+     "clusters": 70,
+     "largest_share": 0.9202778696658948,
+     "measured": 0.7985444922262653,
+     "measured_cluster_avg": 0.9359429178953562,
+     "s_curve": 0.9587786944245289
+    },
+    {
+     "J": [
+      0.85,
+      0.9
+     ],
+     "pairs": 11551,
+     "clusters": 70,
+     "largest_share": 0.9568868496234092,
+     "measured": 0.9711713271578218,
+     "measured_cluster_avg": 0.9986171150391272,
+     "s_curve": 0.9886576407417158
+    },
+    {
+     "J": [
+      0.9,
+      0.95
+     ],
+     "pairs": 15612,
+     "clusters": 69,
+     "largest_share": 0.8525493210351012,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9997822094482397
+    },
+    {
+     "J": [
+      0.95,
+      1.0
+     ],
+     "pairs": 9699,
+     "clusters": 116,
+     "largest_share": 0.7949273120940303,
+     "measured": 1.0,
+     "measured_cluster_avg": 1.0,
+     "s_curve": 0.9999998911640903
+    }
+   ]
+  }
+ ]
+}

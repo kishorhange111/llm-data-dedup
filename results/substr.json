@@ -1,0 +1,64 @@
+{
+ "files_after_near_dedup": 19949,
+ "sample_files": 2502,
+ "sample_tokens": 7999998,
+ "suffix_array_s": 41.08222680000472,
+ "doubling_rounds": 12,
+ "max_lcp": 2526,
+ "by_k": [
+  {
+   "k": 50,
+   "tokens_marked": 647983,
+   "fraction": 0.08099789524947382,
+   "files_touched": 1018,
+   "fraction_without_rulers": 0.07120048095830867
+  },
+  {
+   "k": 100,
+   "tokens_marked": 286224,
+   "fraction": 0.03577800894450223,
+   "files_touched": 491,
+   "fraction_without_rulers": 0.03352490384846909
+  },
+  {
+   "k": 200,
+   "tokens_marked": 111297,
+   "fraction": 0.01391212847803212,
+   "files_touched": 119,
+   "fraction_without_rulers": 0.013622565699564894
+  },
+  {
+   "k": 400,
+   "tokens_marked": 50823,
+   "fraction": 0.006352876588219147,
+   "files_touched": 31,
+   "fraction_without_rulers": 0.006393157937449176
+  }
+ ],
+ "top_spans": [
+  {
+   "copies": 83,
+   "starts_with": "of the License at # # http : / / www . apache ."
+  },
+  {
+   "copies": 83,
+   "starts_with": "a copy of the License at # # http : / / www ."
+  },
+  {
+   "copies": 78,
+   "starts_with": "\" ) ; # you may not use this file except in compliance with"
+  },
+  {
+   "copies": 78,
+   "starts_with": "\" License \" ) ; # you may not use this file except in"
+  },
+  {
+   "copies": 78,
+   "starts_with": ". 0 ( the \" License \" ) ; # you may not use"
+  },
+  {
+   "copies": 78,
+   "starts_with": "the Apache License , Version 2 . 0 ( the \" License \" )"
+  }
+ ]
+}
